@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: simple-web
-          image: junwonsong/simple-web
+          image: junwonsong/simple-web:4
           ports:
             - containerPort:  80
               name: simple-web
